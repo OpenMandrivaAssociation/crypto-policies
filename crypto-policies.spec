@@ -14,6 +14,7 @@ URL:            https://gitlab.com/redhat-crypto/fedora-crypto-policies
 Source0:        https://gitlab.com/redhat-crypto/fedora-crypto-policies/-/archive/master/fedora-crypto-policies-%{git_commit_hash}.tar.bz2
 
 BuildArch: noarch
+BuildRequires:	make
 BuildRequires: asciidoc
 BuildRequires: xsltproc
 BuildRequires: openssl
